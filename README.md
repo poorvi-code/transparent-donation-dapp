@@ -81,7 +81,7 @@ Open a new terminal and run:
 npx hardhat run scripts/deploy.js --network localhost  
 
 
-✅ This will:  
+This will:  
 
 
 Deploy the contract  
@@ -140,22 +140,23 @@ Import one of the accounts from Hardhat node using private key
 
 Main contract: Donation.sol  
 
+## Key Functions
 
-## Key Functions:  
+- createCampaign() → Create a new campaign  
+- donate() → Donate ETH to a campaign  
+- releaseFunds() → Withdraw funds after goal is reached  
+- getAllCampaigns() → Fetch all campaigns  
 
-
--createCampaign() → Create a new campaign  
--donate() → Donate ETH to a campaign
--releaseFunds() → Withdraw funds after goal is reached
--getAllCampaigns() → Fetch all campaigns
 
 ## 🎯 Future Improvements
 
--🔐 Add user authentication
--📷 Upload campaign images (IPFS)
--📊 Better UI dashboard
--🌐 Deploy on Ethereum testnet (Sepolia)
--📱 Mobile responsiveness  
+- 🔐 Add user authentication  
+- 📷 Upload campaign images (IPFS)  
+- 📊 Better UI dashboard  
+- 🌐 Deploy on Ethereum testnet (Sepolia)  
+- 📱 Mobile responsiveness  
+
+
 
 
 ## 🤝 Contributing  
