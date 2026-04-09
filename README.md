@@ -86,65 +86,95 @@ npx hardhat run scripts/deploy.js --network localhost
 
 Deploy the contract  
 
-Generate contract address  
 
-Save it to frontend automatically
-
-🔹 5. Copy Contract ABI (if not already done)
-
-cp artifacts/contracts/Donation.sol/Donation.json frontend/src/
-
-🔹 6. Setup Frontend
-
-cd frontend
-npm install
-
-🔹 7. Start React App
-
-npm start
-
-App will run at:
-
-http://localhost:3000
-
-🦊 MetaMask Setup
-
-Install MetaMask extension
-Add a new network:
-Network Name: Localhost 8545
-RPC URL: http://127.0.0.1:8545
-Chain ID: 31337
-Import one of the accounts from Hardhat node using private key
-
-📜 Smart Contract Overview
-
-Main contract: Donation.sol
-
-Key Functions:
-
-createCampaign() → Create a new campaign
-donate() → Donate ETH to a campaign
-releaseFunds() → Withdraw funds after goal is reached
-getAllCampaigns() → Fetch all campaigns
-
-🎯 Future Improvements
-
-🔐 Add user authentication
-📷 Upload campaign images (IPFS)
-📊 Better UI dashboard
-🌐 Deploy on Ethereum testnet (Sepolia)
-📱 Mobile responsiveness
-
-🤝 Contributing
-
-Feel free to fork this repo and contribute!
-Pull requests are welcome.
+Generate contract address 
 
 
-👩‍💻 Author
+Save it to frontend automatically  
 
-Poorvi Rai K
 
-⭐ Support
+🔹 5. Copy Contract ABI (if not already done)  
+
+
+cp artifacts/contracts/Donation.sol/Donation.json frontend/src/  
+
+
+🔹 6. Setup Frontend  
+
+
+cd frontend  
+
+npm install  
+
+
+🔹 7. Start React App  
+
+
+npm start  
+
+
+App will run at:  
+
+
+http://localhost:3000  
+
+
+## 🦊 MetaMask Setup  
+
+
+Install MetaMask extension  
+
+Add a new network:  
+
+Network Name: Localhost 8545  
+
+RPC URL: http://127.0.0.1:8545  
+
+Chain ID: 31337  
+
+Import one of the accounts from Hardhat node using private key  
+
+
+## 📜 Smart Contract Overview  
+
+
+Main contract: Donation.sol  
+
+
+## Key Functions:  
+
+
+-createCampaign() → Create a new campaign  
+-donate() → Donate ETH to a campaign
+-releaseFunds() → Withdraw funds after goal is reached
+-getAllCampaigns() → Fetch all campaigns
+
+## 🎯 Future Improvements
+
+-🔐 Add user authentication
+-📷 Upload campaign images (IPFS)
+-📊 Better UI dashboard
+-🌐 Deploy on Ethereum testnet (Sepolia)
+-📱 Mobile responsiveness  
+
+
+## 🤝 Contributing  
+
+
+Feel free to fork this repo and contribute!   
+
+
+Pull requests are welcome. 
+
+
+
+## 👩‍💻 Author  
+
+
+Poorvi Rai K  
+
+
+## ⭐ Support  
+
 
 If you like this project, give it a ⭐ on GitHub!
