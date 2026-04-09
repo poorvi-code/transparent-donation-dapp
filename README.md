@@ -1,27 +1,29 @@
-🌐 Transparent Donation DApp
+## 🌐 Transparent Donation DApp  
+
 
 A Blockchain-Based Donation Tracking System built using Ethereum, Hardhat, and React.
 This project ensures transparency, trust, and accountability in donations by recording all transactions on the blockchain.
 
-🚀 Features
+## Features
 
-🪙 Create donation campaigns
-💸 Donate using Ethereum (ETH)
-📊 Transparent tracking of funds
-🔐 Secure & tamper-proof smart contracts
-👤 Campaign owner can withdraw funds after reaching goal
-🌍 Public visibility of all campaigns
+- 🪙 Create donation campaigns  
+- 💸 Donate using Ethereum (ETH)  
+- 📊 Transparent tracking of funds  
+- 🔐 Secure & tamper-proof smart contracts  
+- 👤 Campaign owner can withdraw funds after reaching goal  
+- 🌍 Public visibility of all campaigns
+  
+## Tech Stack
 
-🏗️ Tech Stack
+- Blockchain: Ethereum  
+- Smart Contracts: Solidity  
+- Development Framework: Hardhat (v2)  
+- Frontend: React.js  
+- Web3 Library: Ethers.js (v5)  
+- Wallet: MetaMask  
 
-Blockchain: Ethereum
-Smart Contracts: Solidity
-Development Framework: Hardhat (v2)
-Frontend: React.js
-Web3 Library: Ethers.js (v5)
-Wallet: MetaMask
+## 📁 Project Structure  
 
-📁 Project Structure
 
 donation-dapp/
 │
@@ -34,40 +36,58 @@ donation-dapp/
 │       └── contractAddress.json   # Deployed contract address
 │
 ├── hardhat.config.js
-└── package.json
+└── package.json  
 
-⚙️ Installation & Setup
 
-Follow these steps to run the project on your system:
+## ⚙️ Installation & Setup  
 
-🔹 1. Clone the Repository
 
-git clone https://github.com/poorvi-code/transparent-donation-dapp.git
+Follow these steps to run the project on your system:  
 
-cd donation-dapp
 
-🔹 2. Install Backend Dependencies (Hardhat)
+🔹 1. Clone the Repository  
 
-npm install
 
-🔹 3. Start Local Blockchain
+git clone https://github.com/poorvi-code/transparent-donation-dapp.git  
 
-Open a terminal and run:
 
-npx hardhat node
+cd donation-dapp  
 
-This starts a local Ethereum blockchain with test accounts.
 
-🔹 4. Deploy Smart Contract
+🔹 2. Install Backend Dependencies (Hardhat)  
 
-Open a new terminal and run:
 
-npx hardhat run scripts/deploy.js --network localhost
+npm install  
 
-✅ This will:
 
-Deploy the contract
-Generate contract address
+🔹 3. Start Local Blockchain  
+
+
+Open a terminal and run:  
+
+
+npx hardhat node  
+
+
+This starts a local Ethereum blockchain with test accounts.  
+
+
+🔹 4. Deploy Smart Contract  
+
+
+Open a new terminal and run:  
+
+
+npx hardhat run scripts/deploy.js --network localhost  
+
+
+✅ This will:  
+
+
+Deploy the contract  
+
+Generate contract address  
+
 Save it to frontend automatically
 
 🔹 5. Copy Contract ABI (if not already done)
