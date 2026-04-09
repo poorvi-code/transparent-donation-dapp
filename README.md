@@ -24,19 +24,20 @@ This project ensures transparency, trust, and accountability in donations by rec
 
 ## Project Structure
 
-
+```
 donation-dapp/
 │
-├── contracts/ # Solidity smart contracts
-├── scripts/ # Deployment scripts
-├── artifacts/ # Compiled contract files
-├── frontend/ # React frontend
-│ └── src/
-│ ├── Donation.json # ABI
-│ └── contractAddress.json # Deployed contract address
+├── contracts/           # Solidity smart contracts
+├── scripts/             # Deployment scripts
+├── artifacts/           # Compiled contract files
+├── frontend/            # React frontend
+│   └── src/
+│       ├── Donation.json          # ABI
+│       └── contractAddress.json   # Deployed contract address
 │
 ├── hardhat.config.js
 └── package.json
+```
 
 
 ## ⚙️ Installation & Setup  
